@@ -7,7 +7,7 @@
 
 ## F-Strings
 
-- Used when you need to add multiple variables in a statement
+- Used to put variables inside a string
 - Always add `f` before the quotation marks
 - Variables must be inside `{ }`
 
@@ -27,6 +27,6 @@ print(f"string of {toy} to many {candy}")
 **Example:**
 
 ```python
-choco = (f"{total_bot} of the")
+choco = f"{total_bot} of the"
 return choco
 ```

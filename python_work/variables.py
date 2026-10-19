@@ -1,3 +1,5 @@
+# Formula
+# Variable = Value
 message = "whatever we want"
 print(message)
 

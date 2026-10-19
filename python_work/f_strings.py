@@ -8,4 +8,5 @@ def make_message(total_bot):
     choco = f"{total_bot} of the"
     return choco
 
+
 print(make_message(3))

@@ -1,4 +1,4 @@
-# Scope
+# 7. Scope
 
 **Scope** is where a variable or function name is available to use.
 
@@ -23,9 +23,26 @@ When the `subtract` function is called, we assign `5` to the variable `x`, but `
 - Variables created inside a function are **local**. They only exist while the function runs.
 - Code outside the function can't see them.
 
+## Global Scope
 
-global scope
+- A variable or function defined outside of any function is in the **global scope**
+- It can be accessed from every other place in the program, including inside other functions
 
-1. Define a variable or function that can be accessible in every other place in the program
- this includes other functions
-2. 
+```python
+greeting = "Hello"
+
+
+def say_greeting():
+    print(greeting)
+
+
+say_greeting()
+# Prints Hello
+```
+
+*greeting = global variable. say_greeting can read it even though it was defined outside the function.*
+
+| Scope  | Where it's defined   | Where it can be used           |
+|--------|----------------------|--------------------------------|
+| Local  | Inside a function    | Only inside that function      |
+| Global | Outside any function | Anywhere in the program        |
