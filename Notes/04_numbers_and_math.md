@@ -40,6 +40,7 @@ my_float = 5.5
 | Division       | `/`    | `div = 2 / 2`             |
 | Floor division | `//`   | `8 // 3`                  |
 | Exponent       | `**`   | `2 ** 3`                  |
+| Modulo         | `%`    | `13 % 3`                  |
 | Parentheses    | `( )`  | `(message + test) / 3`    |
 | Negative       | `-x`   | `candy = -420`            |
 
@@ -66,6 +67,27 @@ my_float = 5.5
 - **Rule:** anything raised to the power of 0 equals 1
   - `5 ** 0` = 1
   - `x ** 0` = 1
+
+## Modulo
+
+- Operator: `%`
+- Divides, then gives back the **remainder** instead of the answer
+- `13 % 3` is `1`, because 13 = 4 × 3 + 1
+- Works on floats too: `-25.5 % 2.25` is `1.5`
+- Handy for even/odd: `n % 2` is `0` when `n` is even and `1` when it's odd
+
+```python
+print(13 % 3)
+# Prints 1
+
+print(10 % 2)
+# Prints 0 (no remainder, so 10 is even)
+
+print(-25.5 % 2.25)
+# Prints 1.5
+```
+
+*A non-zero result has the same sign as the number on the right, which is why a negative number on the left can still give a positive answer.*
 
 ## In-Place Operators (Reassignment)
 
@@ -117,6 +139,9 @@ print(16e3)
 
 print(7.1e-2)
 # Prints 0.071
+
+print(52.3E-4)
+# Prints 0.00523 (a capital E works too)
 ```
 
 *Scientific notation always produces a float.*

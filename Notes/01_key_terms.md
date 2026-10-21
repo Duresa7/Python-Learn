@@ -20,6 +20,7 @@ Short versions of terms that have their own notes.
 - **Integer:** a whole number, positive or negative. Example: `3`, `-3` → [04_numbers_and_math.md](04_numbers_and_math.md)
 - **Float:** a number with a decimal point. Example: `5.5`
 - **Floor division (`//`):** divide, then round down to the nearest integer. Example: `8 // 3` is `2`
+- **Modulo (`%`):** divide, then give back the remainder. Example: `13 % 3` is `1`
 - **Exponent (`**`):** multiply a number by itself that many times. Example: `2 ** 3` is `8`. Anything `** 0` is `1`
 - **In-place operator (`+=`, `-=`, `*=`, `/=`):** change a variable and store the result back in it
 - **Scientific notation:** `e` followed by how many places to move the decimal. Example: `16e3` is `16000.0`
@@ -27,6 +28,9 @@ Short versions of terms that have their own notes.
 - **Binary:** base-2 numbers that only use `0` and `1`. Start with `0b`. Example: `0b1010` is `10` → [04_numbers_and_math.md](04_numbers_and_math.md)
 - **Boolean:** a value that is either `True` or `False` → [09_logical_operators.md](09_logical_operators.md)
 - **Logical operators (`and`, `or`, `not`):** combine or reverse Boolean values
+- **Comparison operators (`<`, `>`, `<=`, `>=`, `==`, `!=`):** compare two values and give back `True` or `False` → [11_comparison_operators.md](11_comparison_operators.md)
+- **Conditional (`if`, `elif`, `else`):** code that only runs when a condition is `True` → [12_if_statements.md](12_if_statements.md)
+- **`format()`:** a string method that fills `{}` placeholders with values → [03_strings.md](03_strings.md)
 - **Bit:** a single binary digit, `0` or `1`
 - **Bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`):** apply logic to every bit of a number, column by column → [10_bitwise_operators.md](10_bitwise_operators.md)
 - **Scope:** where a name is available to use → [07_scope.md](07_scope.md)

@@ -64,3 +64,5 @@ print((True or False) and False)
 print(True or False and False)
 # Prints True (and runs first: False and False is False, then True or False is True)
 ```
+
+To make `True` and `False` from comparing values, see [11_comparison_operators.md](11_comparison_operators.md).
