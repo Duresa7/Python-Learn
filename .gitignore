@@ -1,1 +1,6 @@
 /.vscode
+.venv/
+__pycache__/
+
+# Quick-test file, not part of the notes
+Notes/scratch_code.py
